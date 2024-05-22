@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { setFilter, selectFilter } from "../../redux/filtersSlice";
+import { setFilter, selectFilter } from "../../redux/contacts/filtersSlice";
 
 // import { nanoid } from "@reduxjs/toolkit";
 
