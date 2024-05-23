@@ -8,10 +8,10 @@ const UserMenu = () => {
   const user = useSelector(selectUser);
 
   return (
-    <div className={css.wrapper}>
-      <p className={css.username}>Welcome, {user.name}</p>
+    <div className={css.nav}>
+      <p className={css.text}>Welcome, {user.name}</p>
       <button
-        className={css.btn}
+        className={css.button}
         type="button"
         onClick={() => dispatch(logoutThunk())}
       >
