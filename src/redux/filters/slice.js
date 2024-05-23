@@ -17,5 +17,4 @@ const filtersSlice = createSlice({
 export const { setFilter } = filtersSlice.actions;
 export const filtersReducer = filtersSlice.reducer;
 
-// Визначте селектор окремо
 export const selectFilter = (state) => state.filter.name;

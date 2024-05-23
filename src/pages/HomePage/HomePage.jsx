@@ -7,16 +7,15 @@ export default function HomePage() {
     <>
       <DocumentTitle>Home</DocumentTitle>
       <div className={css.container}>
-        <h1 className={css.title}>Contacts manager welcome page</h1>
+        <h1 className={css.title}>Welcome to Phonebook</h1>
         <p className={css.link}>
           <NavLink to="/register" className={css.span}>
-            Join Now
+            Sing Up Now
           </NavLink>{" "}
           or{" "}
           <NavLink to="/login" className={css.span}>
-            Log In
+            Already have an account?
           </NavLink>{" "}
-          ?
         </p>
       </div>
     </>
