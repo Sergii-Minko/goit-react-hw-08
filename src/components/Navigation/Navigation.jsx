@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { useSelector } from "react-redux";
-import { selectIsLoggedIn } from "../../redux/auth/slice";
+import { selectIsLoggedIn } from "../../redux/auth/selectors";
 import css from "./Navigation.module.css";
 
 const Navigation = () => {
@@ -18,4 +18,5 @@ const Navigation = () => {
     </nav>
   );
 };
+
 export default Navigation;

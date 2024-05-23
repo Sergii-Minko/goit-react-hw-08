@@ -1,11 +1,19 @@
-.container {
+.title {
   display: flex;
-  padding: 400px 700px 200px 100px;
-  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 400px;
 }
 
-.title {
-  font-size: 50px;
-  font-weight: 300;
-  color: #fff;
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.description {
+  font-size: 18px;
 }
